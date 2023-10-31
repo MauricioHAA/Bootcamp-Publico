@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Background*/
+.background{    
+    background: #0099F7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    padding: 15px;
+}
+
+/*h1*/
+.h1{
+    padding-top: 10px;
+    color: #FC466B;
+    float: initial;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-style: italic;        
+}
+/*h2*/
+.h2{
+    color: #3F5EFB;
+    float: initial;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+    box-shadow: 6px 5px 5px black;
+    
+}
+/*SPAN*/
+.span{
+    color: #3F5EFB;
+    align-items: center;
+}
+
+.span2{
+    color: #FC466B;
+    align-items: center;
+}
+
+/*DIV*/
+div{    
+    padding: 10px;
+    margin: 5px;
+}
+
+/*Container*/
+.container{
+    width: 940px;      
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid black;
+    background: #3F5EFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FC466B, #3F5EFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FC466B, #3F5EFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+/*Container n°1*/
+.container1{
+    border: 1px solid black;
+    background-color: white;
+    width: 905px;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    /*Acomodo vertical*/
+    align-items: stretch; 
+    /*Acomodo horizontal*/
+    justify-content: space-evenly;    
+    /*Directions*/
+    flex-direction: row ; 
+    
+}
+
+/*sections container 1*/
+.s1, .s2, .s3{
+    width: 200px;
+    background-color: green;
+}
+
+/*Container 2*/
+
+.container2{
+    border: 1px solid black;
+    background-color: white;
+    width: 905px;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    /*Acomodo vertical*/
+    align-items: stretch; 
+    /*Acomodo horizontal*/
+    justify-content: space-evenly;
+    
+    /*Directions*/
+    flex-direction: row ; 
+}
+
+/*sections container 2*/
+.s4, .s5{
+    width: 200px;
+    background-color: yellow;
+}
+
+/*Container 3*/
+
+.container3{
+    border: 1px solid black;
+    background-color: white;
+    width: 905px;
+    height: 200px;
+    display: flex;
+    /*Acomodo vertical*/
+    align-items: stretch; 
+    /*Acomodo horizontal*/
+    justify-content: space-evenly;    
+    /*Directions*/
+    flex-direction: row ; 
+}
+
+/*sections container 3*/
+.s6, .s7, .s8{
+    width: 200px;
+    background-color: red;
+}
+
+/*imagenes container 1*/
+
+#s1-img{
+    width: 200px;
+    background-image: url(../img/yaktocat.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+#s2-img{
+    width: 200px;
+    background-image: url(../img/yogitocat.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+#s3-img{
+    width: 200px;
+    background-image: url(../img/saritocat.png);
+    background-size: contain;
+    background-position: center center;
+}
+
+/*imagenes container 2*/
+
+#s4-img{    
+    width: 200px;
+    background-image: url(../img/carlostocat.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#s5-img{
+    width: 200px;
+    background-image: url(../img/hula_loop_octodex03.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+/*imagenes container 3*/
+
+#s6-img{
+    width: 200px;
+    background-image: url(../img/linktocat.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+
+#s7-img{
+    width: 200px;
+    background-image: url(../img/plumber.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+
+#s8-img{
+    width: 200px;
+    background-image: url(../img/megacat.jpg);
+    background-size: contain;
+    background-position: center center;
+}
